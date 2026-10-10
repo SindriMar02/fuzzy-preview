@@ -1,0 +1,27 @@
+/* Fuzzy brand layer over the olympic.no system (olympic-site.css / olympic-pages.css stay untouched).
+   Tokens from DESIGN.md. Colours: Rammagerðin studio floor, Togo-poster paper, the 1972 box magenta. */
+@font-face{font-family:"Switzer";src:url("../fonts/Switzer-Extralight.woff2") format("woff2");font-weight:200;font-display:swap}
+@font-face{font-family:"Switzer";src:url("../fonts/Switzer-Light.woff2") format("woff2");font-weight:300;font-display:swap}
+@font-face{font-family:"Switzer";src:url("../fonts/Switzer-Regular.woff2") format("woff2");font-weight:400 450;font-display:swap}
+@font-face{font-family:"Switzer";src:url("../fonts/Switzer-Medium.woff2") format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Plex Mono";src:url("../fonts/ibm-plex-mono-v20-latin_latin-ext-regular.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Plex Mono";src:url("../fonts/ibm-plex-mono-v20-latin_latin-ext-500.woff2") format("woff2");font-weight:500;font-display:swap}
+:root{
+  --ink:#2a2420;        /* warm ink: text, plate frames, the year, footer */
+  --paper:#ede8e0;      /* archive paper: page ground */
+  --studio:#d4d3d1;     /* seamless studio grey: hero + anatomy bands */
+  --plate:#fff;         /* plate white for the white-background cut-outs */
+  --signal:#b12e70;     /* the 1972 box magenta, single accent */
+  --signal-dark:#e06a9e;/* magenta on ink */
+  --stone:#d4d3d1;      /* button fill (= studio grey) */
+  --mute:#6b625a;       /* secondary text on paper, 4.89:1 */
+  --mute-studio:#5e5750;/* secondary text on studio grey, 4.75:1 */
+  --mute-2:#6b625a;
+  --mute-ink:#a39a90;   /* secondary text on ink, 5.53:1 */
+  --line:rgba(42,36,32,.16);
+  --line-dark:#8a8178;
+  --media:#cfcac2;
+  --sans:"Switzer",system-ui,sans-serif;
+  --mono:"Plex Mono",ui-monospace,monospace;
+  --radius:0rem;        /* the board has no radius anywhere */
+}
